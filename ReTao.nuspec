@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>ReTao</id>
+    <version>1.0.0</version>
+    <title>SDL 1.2, OpenGL and OpenAL wrapper for .NET</title>
+    <authors>The Tao Framework Team, Gabor Szabo</authors>
+    <owners>The Tao Framework Team, Gabor Szabo</owners>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/AlteredCarrot71/ReTao</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The Tao Framework for .NET is a collection of bindings to facilitate cross-platform game-related development utilizing the .NET platform.</description>
+    <releaseNotes>Initial Nuget package</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>C# SDL</tags>
+    <references>
+      <reference file="ReTao.dll" />
+    </references>
+  </metadata>
+  <files>
+    <file src="bin\Release\ReTao.*" target="lib\net40" />
+    <file src="build\ReTao.targets" target="build\" />
+    <file src="build\x86\libFLAC-8.dll" target="build\x86" />
+    <file src="build\x86\libfreetype-6.dll" target="build\x86" />
+    <file src="build\x86\libjpeg-8.dll" target="build\x86" />
+    <file src="build\x86\libmikmod-2.dll" target="build\x86" />
+    <file src="build\x86\libogg-0.dll" target="build\x86" />
+    <file src="build\x86\libpng15-15.dll" target="build\x86" />
+    <file src="build\x86\libtiff-5.dll" target="build\x86" />
+    <file src="build\x86\libvorbis-0.dll" target="build\x86" />
+    <file src="build\x86\libvorbisfile-3.dll" target="build\x86" />
+    <file src="build\x86\libwebp-2.dll" target="build\x86" />
+    <file src="build\x86\openal32.dll" target="build\x86" />
+    <file src="build\x86\SDL.dll" target="build\x86" />
+    <file src="build\x86\SDL_image.dll" target="build\x86" />
+    <file src="build\x86\SDL_mixer.dll" target="build\x86" />
+    <file src="build\x86\SDL_net.dll" target="build\x86" />
+    <file src="build\x86\SDL_ttf.dll" target="build\x86" />
+    <file src="build\x86\smpeg.dll" target="build\x86" />
+    <file src="build\x86\zlib1.dll" target="build\x86" />
+    <file src="build\x64\libFLAC-8.dll" target="build\x64" />
+    <file src="build\x64\libfreetype-6.dll" target="build\x64" />
+    <file src="build\x64\libjpeg-8.dll" target="build\x64" />
+    <file src="build\x64\libmikmod-2.dll" target="build\x64" />
+    <file src="build\x64\libogg-0.dll" target="build\x64" />
+    <file src="build\x64\libpng15-15.dll" target="build\x64" />
+    <file src="build\x64\libtiff-5.dll" target="build\x64" />
+    <file src="build\x64\libvorbis-0.dll" target="build\x64" />
+    <file src="build\x64\libvorbisfile-3.dll" target="build\x64" />
+    <file src="build\x64\libwebp-2.dll" target="build\x64" />
+    <file src="build\x64\openal32.dll" target="build\x64" />
+    <file src="build\x64\SDL.dll" target="build\x64" />
+    <file src="build\x64\SDL_image.dll" target="build\x64" />
+    <file src="build\x64\SDL_mixer.dll" target="build\x64" />
+    <file src="build\x64\SDL_net.dll" target="build\x64" />
+    <file src="build\x64\SDL_ttf.dll" target="build\x64" />
+    <file src="build\x64\smpeg.dll" target="build\x64" />
+    <file src="build\x64\zlib1.dll" target="build\x64" />
+  </files>
+</package>
